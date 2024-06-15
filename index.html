@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ritesh Patil Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/Ritesh patil.jpg" alt="Ritesh patil" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Ritesh Patil</h1>
+
+          <p class="title">Full Stack Developer </p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:001patilritesh@gmail.com" class="contact-link">001patilritesh@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+91 91195 12822</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">Sept 28 2003 </time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Pune, Maharashtra, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/001patilritesh/" target="_blank" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://github.com/coder-Rit/" target="_blank" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am 4th year Information Technology student specializing in MERN-stack development. With over a year of
+            hands-on experience and 5 months of internships, he excels in crafting robust web applications and deploying
+            them on nginx.
+          </p>
+
+          <p>
+            I have expertise spans technologies like GraphQL, TypeScript, and GitHub, emphasizing collaborative
+            development and version control. I prioritizes code quality, regularly studying data structures and
+            algorithms to deliver optimized and scalable solutions.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/full stack.gif" alt="Full Stack icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Full Stack</h4>
+
+                <p class="service-item-text">
+                  Building scalable and data optimized appliations in MERN stack.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/dsa.gif" alt="DS Algo icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">DS Algo</h4>
+
+                <p class="service-item-text">
+                  Empowering My Problem-Solving with Data Structures and Algorithms.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/indi developer.gif" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Indi-development</h4>
+
+                <p class="service-item-text">
+                  Creating web solutions and extensions that tailor to people's problems.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img class="simpleIconAnimation"
+                  src="https://img.icons8.com/?size=100&id=IhWBOFHtv6vx&format=png&color=000000" alt="camera icon"
+                  width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title"> Freelancing </h4>
+
+                <p class="service-item-text">
+                  Do Freelance globally - Helping businesses grow online.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+
+
+
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title></h4>
+
+              <time datetime="2021-06-14"></time>
+
+              <div data-modal-text>
+
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+          <h3 class="h3">My Skills</h3>
+
+          <div class="skills-container">
+            <h5 class="h5 skilltype-heading">Front-End</h5>
+            <ul class="skill-list">
+              <li class="skill-item">
+                <img style="width: 30px;" src="https://img.icons8.com/?size=100&id=asWSSTBrDlTW&format=png&color=000000"
+                  alt="React">
+                <span class="h5">React.Js</span>
+              </li>
+              <li class="skill-item">
+                <img style="width: 30px;" src="https://img.icons8.com/?size=100&id=jD-fJzVguBmw&format=png&color=000000"
+                  alt="Redux">
+                <span class="h5">Redux</span>
+              </li>
+              <li class="skill-item">
+                <img style="width: 30px;" src="https://img.icons8.com/?size=100&id=0hnNNhA5my8V&format=png&color=000000"
+                  alt="Apollo-GL">
+                <span class="h5">Apollo-GL</span>
+              </li>
+              <li class="skill-item">
+                <img style="width: 30px;" src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000"
+                  alt="HTML">
+                <span class="h5">HTML</span>
+              </li>
+              <li class="skill-item">
+                <img style="width: 30px;" src="https://img.icons8.com/?size=100&id=21278&format=png&color=000000"
+                  alt="CSS">
+                <span class="h5">CSS</span>
+              </li>
+
+              <li class="skill-item">
+                <img style="width: 30px;" src="https://img.icons8.com/?size=100&id=x7XMNGh2vdqA&format=png&color=000000"
+                  alt="Tailwind">
+                <span class="h5">Tailwind</span>
+              </li>
+            </ul>
+
+            <h5 class="h5 skilltype-heading">Back-End</h5>
+            <ul class="skill-list">
+              <li class="skill-item">
+                <img style="width: 30px;" src="https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000"
+                  alt="Node.js">
+                <span class="h5">Node.Js</span>
+              </li>
+              <li class="skill-item">
+                <img style="width: 30px;" src="https://img.icons8.com/?size=100&id=SDVmtZ6VBGXt&format=png&color=000000"
+                  alt="Express.js">
+                <span class="h5">Express JS</span>
+              </li>
+              <li class="skill-item">
+                <img style="width: 30px;" src="https://img.icons8.com/?size=100&id=zdI5E8moxhs-&format=png&color=000000"
+                  alt="GraphQL">
+                <span class="h5">GraphQL</span>
+              </li>
+              <li class="skill-item">
+                <img style="width: 30px;" src="https://img.icons8.com/?size=100&id=bosfpvRzNOG8&format=png&color=000000"
+                  alt="MongoDB">
+                <span class="h5">MongoDB</span>
+              </li>
+              <li class="skill-item">
+                <img style="width: 30px;" src="https://img.icons8.com/?size=100&id=pHS3eRpynIRQ&format=png&color=000000"
+                  alt="MongoDB">
+                <span class="h5">Redis</span>
+              </li>
+              <li class="skill-item">
+                <img style="width: 30px;" src="https://img.icons8.com/?size=100&id=UFXRpPFebwa2&format=png&color=000000"
+                  alt="MySQL">
+                <span class="h5">MySQL</span>
+              </li>
+            </ul>
+
+            <h5 class="h5 skilltype-heading">Languages</h5>
+            <ul class="skill-list">
+              <li class="skill-item">
+                <img style="width: 30px;" src="https://img.icons8.com/?size=100&id=PXTY4q2Sq2lG&format=png&color=000000"
+                  alt="JavaScript">
+                <span class="h5">JavaScript</span>
+              </li>
+              <li class="skill-item">
+                <img style="width: 30px;" src="https://img.icons8.com/?size=100&id=wpZmKzk11AzJ&format=png&color=000000"
+                  alt="TypeScript">
+                <span class="h5">TypeScript</span>
+              </li>
+              <li class="skill-item">
+                <img style="width: 30px;" src="https://img.icons8.com/?size=100&id=13679&format=png&color=000000"
+                  alt="Java">
+                <span class="h5">Java</span>
+              </li>
+            </ul>
+
+            <h5 class="h5  skilltype-heading">DevOps</h5>
+            <ul class="skill-list">
+              <li class="skill-item">
+                <img style="width: 30px;" src="https://img.icons8.com/?size=100&id=22813&format=png&color=000000"
+                  alt="Docker">
+                <span class="h5">Docker</span>
+              </li>
+              <li class="skill-item">
+                <img style="width: 30px;" src="https://img.icons8.com/?size=100&id=12599&format=png&color=000000"
+                  alt="GitHub">
+                <span class="h5">GitHub</span>
+              </li>
+              <li class="skill-item">
+                <img style="width: 30px;" src="https://img.icons8.com/?size=100&id=20906&format=png&color=000000"
+                  alt="Git">
+                <span class="h5">Git</span>
+              </li>
+              <li class="skill-item">
+                <img style="width: 30px;" src="https://img.icons8.com/?size=100&id=62452&format=png&color=000000"
+                  alt="Firebase">
+                <span class="h5">Firebase</span>
+              </li>
+
+            </ul>
+
+            <h5 class="h5 skilltype-heading">Tools</h5>
+            <ul class="skill-list">
+              <li class="skill-item">
+                <img style="width: 30px;" src="https://img.icons8.com/?size=100&id=9OGIyU8hrxW5&format=png&color=000000"
+                  alt="VS Code">
+                <span class="h5">VS Code</span>
+              </li>
+              <li class="skill-item">
+                <img style="width: 30px;" src="https://img.icons8.com/?size=100&id=kikR2jIn6485&format=png&color=000000"
+                  alt="Slack">
+                <span class="h5">Slack</span>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Full Stack Developer</h4>
+              <p class="mode mode-color-offline">offline</p>
+              <p class="mode mode-color-role">full-time SDE</p>
+              <span>Fourise India | MAR 2024 – Present</span>
+
+
+              <p class="timeline-text">
+                I am lead full-stack teams at a Fourise India, hired as a backend expert to develop complex and scalable
+                Application, contributing across multiple projects and tech stacks (MERN, PHP, JavaScript, Android).
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Full Stack Developer</h4>
+              <span>Altruism Labs | OCT 2023 – JAN 2024</span>
+              <p class="mode mode-color-online">online</p>
+              <p class="mode mode-color-role">intern</p>
+
+
+              <p class="timeline-text">
+                Developed software that is capable of generating energy reports
+                for a $3 million sugar mill and integrated an alert system to
+                streamline maintenance operation.
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Full Stack Developer </h4>
+              <p class="mode mode-color-role">self employ</p>
+              <span>SchoolOil | MAR 2023 – DEC 2023</span>
+
+              <p class="timeline-text">
+                Built widely scalable complete student profiling applications called "SchoolOil", applicable from
+                primary schools to postgraduation.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Backend Developer</h4>
+              <p class="mode mode-color-online">online</p>
+              <p class="mode mode-color-role">intern</p>
+              <span>Dreamify | FEB 2023 – MAR 2023</span>
+
+              <p class="timeline-text">
+                Managed authentication, Design schemas, and executed CRUD
+                operations Using Rest API for a gaming website project.
+
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">B.E. (Information Technology)</h4>
+
+              <span>2021 — 2025</span>
+
+              <p class="timeline-text">
+                Currently in 4th year,
+                <br>
+                Studying a comprehensive curriculum encompassing Database Management Systems (DBMS), computer graphics, networking, and more, at JSPMS BSIOTR.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">12th</h4>
+
+              <span>2019 — 2021</span>
+
+              <p class="timeline-text">
+                Graduated from NMV High School, Pune, good in mathematics and laying the foundation for my academic journey in technology.
+              </p>
+
+            </li>
+
+
+          </ol>
+
+        </section>
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>MERN</button>
+              </li>
+              <li class="filter-item">
+                <button data-filter-btn>HTML PHP</button>
+              </li>
+
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+
+
+            <li class="project-item  active" data-filter-item data-category="MERN">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/charlar.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Charlar</h3>
+
+                <p class="project-category">Application</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="MERN">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/schooloil.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">SchoolOil</h3>
+
+                <p class="project-category">Application</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="HTML PHP">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/urk.png" alt="urk" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">URK dashbord</h3>
+
+                <p class="project-category">UI/UX</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="MERN">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/gym2.png" alt="insigts." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">GYM Website</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="HTML PHP">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/decours project.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Decours</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+
+
+
+
+
+            <li class="project-item  active" data-filter-item data-category="MERN">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/insigts.png" alt="insigts." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Insigts dashbord</h3>
+
+                <p class="project-category">Application</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="MERN">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/decours dashbord.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">decours dashbord</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Posts</h2>
+        </header>
+
+        <section class="blog-posts">
+          <h1 class="h4 ">LeetCode</h1>
+
+          <div class="statecont">
+
+            <div class="achive-item boxDesign">
+              <img class="leetcodeimg" src="./assets/images/leetcode problems.png" alt="">
+            </div>
+
+            <!-- <div class="achive-item">
+
+            </div> -->
+
+          </div>
+          <h1 class="h4 " style="margin-top: 10px;">GitHub</h1>
+
+          <div class="achive-item boxDesign">
+            <img class="gitlongimages" src="./assets/images/github-trophies.png" alt="">
+          </div>
+          <div class="achive-item boxDesign">
+            <img class="gitlongimages" src="./assets/images/github-cal.png" alt="">
+          </div>
+
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d879.5646448185793!2d74.00761672347025!3d18.5883800642964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c49e6f5f0529%3A0xe964d494c3d9d365!2sDreams%20Sankalp!5e0!3m2!1sen!2sin!4v1713466453961!5m2!1sen!2sin"
+              width="400" height="300" loading="lazy"></iframe>
+
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="https://api.web3forms.com/submit" method="POST" class="form" data-form>
+
+            <input type="hidden" name="access_key" value="459ff695-a0a2-421a-b4d3-a45ca6e28aa9">
+
+            <div class="input-wrapper">
+              <input type="text" name="name" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/apiscript.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
