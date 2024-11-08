@@ -267,6 +267,9 @@ article.active {
 .article-title {
   position: relative;
   padding-bottom: 7px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .article-title::after {
@@ -661,7 +664,7 @@ my skills
   padding: 7px 12px;
   border-radius: 7px;
   box-shadow: var(--shadow-2);
-  background-color: rgba(255, 255, 255, 0.141);
+  background-color: rgb(54, 54, 54);
   z-index: 1;
 }
 
@@ -974,6 +977,12 @@ my skills
   color: var(--light-gray);
   font-weight: var(--fw-300);
   line-height: 1.6;
+
+}
+
+
+.timeline-text> li {
+  margin-top: 5px;
 }
 
 
@@ -1266,6 +1275,9 @@ my skills
 }
 .leetcodeimg{
   width: 400px;
+}
+.linkedinImage{
+  width: 350px;
 }
 .gitlongimages{
   width: 100%;
@@ -2217,4 +2229,91 @@ textarea.form-input::-webkit-resizer {
 .mode-color-offline {
 
   background-color: rgb(56, 171, 48);
+}
+
+
+
+
+
+
+/**
+  Browser should support Houdini API
+*/
+
+.topSkill {
+  --borderWidth: 3px;
+  background: #1D1F20;
+  position: relative;
+  border-radius: var(--borderWidth);
+}
+.topSkillLi{
+  background: black;
+}
+.topSkill:after {
+  content: '';
+  position: absolute;
+  top: calc(-1 * var(--borderWidth));
+  left: calc(-1 * var(--borderWidth));
+  height: calc(100% + var(--borderWidth) * 2);
+  width: calc(100% + var(--borderWidth) * 2);
+  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+  border-radius: calc(2 * var(--borderWidth));
+  z-index: 0;
+  -webkit-animation: animatedgradient 3s ease alternate infinite;
+          animation: animatedgradient 3s ease alternate infinite;
+  background-size: 300% 300%;
+}
+
+
+@-webkit-keyframes animatedgradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+@keyframes animatedgradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+.downlaodBTnClass{
+  width: 35px;
+  height: 35px;
+  border-radius: 5px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+  animation: glowAnimation 3s infinite;
+}
+
+@keyframes glowAnimation {
+  0%, 100% {
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 18px -5px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 18px -5px rgba(255,255,255,1);
+    box-shadow: 0px 0px 18px -5px rgba(255,255,255,1);
+  }
+  50% {
+    background-color: rgba(255, 255, 255, 0.8);
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(255,255,255,0.6);
+    -moz-box-shadow: 0px 0px 30px 0px rgba(255,255,255,0.6);
+    box-shadow: 0px 0px 30px 0px rgba(255,255,255,0.6);
+  }
 }
